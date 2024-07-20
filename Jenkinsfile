@@ -21,4 +21,5 @@ pipeline {
 		always {
 		junit testResults: 'logs/unitreport.xml'
 	}
+	}
 }
